@@ -1,0 +1,427 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-color: rgb(241, 239, 235);
+   position: relative;
+    
+}
+header{
+    height: 70px;
+    color: rgb(243, 248, 252);
+    background-color: rgb(112, 108, 103);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+h1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+h2{
+    font-size: 1.6em;
+    margin-top: 20px;
+}
+h3{
+    font-size: 1.6em;
+    margin-top: 20px;
+}
+.all{
+width: 150px;
+height: 400px;
+background-color: rgb(209, 247, 235);
+cursor: pointer;
+color: rgb(13, 13, 14);
+z-index: 999;
+position: absolute;
+top:60px;
+left:600px;
+overflow: auto;
+display: none;
+}
+.all a{
+    padding-left:20px ;
+}
+.all a:hover{
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+h4{
+    font-size: 1.6em;
+    margin-top: 17px;
+    margin-right: 25px;
+}
+
+#name img{
+
+    height: 15em;
+    width: 65em;
+}
+.btn{
+    position: absolute;
+    top:150px;
+    cursor: pointer;
+    font-size: 1.6em;
+    height: 70px;
+    font-weight: 500;
+  
+    
+}
+.btnn{
+    position: absolute;
+    top: 150px;
+    left: 985px;
+    cursor: pointer;
+    font-size: 1.6em;
+    height: 70px;
+    font-weight: 500;
+}
+.contan2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.con{
+    width: 300px;
+    height: 400px;
+    background-color: bisque;
+}
+.con img{
+    width: 80%;
+    height: 80%;
+    padding-left: 50px;
+    padding-top: 5px;      
+}
+.con span{
+padding-left:80px;
+margin-top: 10px;
+font-size: 1.6em;
+font-weight: 500;
+cursor:pointer;
+
+}
+.con a{
+    font-size: 1.2em;
+    font-weight: 500;
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.con a:hover{
+    color: brown;
+}
+
+.contant{
+    background-color: antiquewhite;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.ben{
+    position: absolute;
+    top:1350px;
+    left: 0;
+    font-size: 1.6em;
+    font-weight: 500;
+    height: 70px;
+    cursor: pointer;
+}
+.benn{
+    position: absolute;
+    top:1350px;
+    left: 985px;
+    font-size: 1.6em;
+    font-weight: 500;
+    height: 70px;
+    cursor: pointer;
+}
+.cono{
+    display: flex;
+    justify-content: space-between;
+}
+.cono.active{
+    transform: translateX(-200%);
+    transition: .8s ease-in-out;
+}
+.cono img{
+    width: 200px;
+    height: 350px;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+.conoo{
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(15%)
+}
+.conoo.active{
+    transform: translateX(-100%);
+    transition: .8s ease-in-out;
+}
+.conoo img{
+    width: 200px;
+    height: 350px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.next{
+    width: 200px;
+    height: 400px;
+    background-color: darkgrey;
+    margin-top: 30px;
+}
+
+footer{
+    height: 300px;
+    background-color: rgb(41, 40, 40);
+    color: aliceblue;
+    margin-top: 40px;
+}
+.faat{
+    height: 50px; 
+    background-color: rgb(71, 70, 70); 
+    padding-top: 20px;
+}
+.faat a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.6em;
+    font-weight: 500;
+   padding-left: 450px;
+   cursor: pointer;
+
+}
+.fooot{
+display: flex;
+justify-content: space-between;
+padding-left: 30px;
+padding-right: 20px;
+}
+
+
+@media(max-width:500px){
+
+    body{
+        margin: 0;
+        padding: 0;
+       background-color: rgb(241, 239, 235);
+       position: relative;
+        
+    }
+    header{
+       
+        height: 150px;
+        color: rgb(243, 248, 252);
+        background-color: rgb(112, 108, 103);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    h1{
+        margin-left: 5px;
+        padding-left: 5px;
+        margin-top: 5px;
+    }
+
+    h2{
+        padding-left: 10px;
+        margin-top: 5px;
+    }
+    h3{
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    h4{
+        padding-left: 10px;
+        margin-top: 5px;
+    }
+   
+    
+    .all{
+        width: 150px;
+        height: 400px;
+        background-color: rgb(209, 247, 235);
+        cursor: pointer;
+        color: rgb(13, 13, 14);
+        z-index: 999;
+        position: absolute;
+        top:140px;
+        left:30px;
+        overflow: auto;
+        display: none;
+}  
+
+    .all a{
+        padding-left:2px ;
+    }
+    .all a:hover{
+        color: brown;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+   
+    
+    #name img{
+    
+        height: 7em;
+        width: 25em;
+    }
+    .btn{
+        position: absolute;
+        top:180px;
+        cursor: pointer;
+        font-size: 1.6em;
+        height: 50px;
+        font-weight: 500;
+      
+        
+    }
+    .btnn{
+        position: absolute;
+        top: 180px;
+        left: 360px;
+        cursor: pointer;
+        font-size: 1.6em;
+        height: 50px;
+        font-weight: 500;
+    }
+    .contan2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .con{
+        width: 300px;
+        height: 400px;
+        background-color: bisque;
+        margin-top: 8px;
+        margin-left: 30px;
+    }
+    .con img{
+        width: 80%;
+        height: 80%;
+        padding-left: 20px;
+        padding-top: 3px;      
+    }
+    .con span{
+    padding-left:30px;
+    margin-top: 2px;
+    cursor:pointer;
+    
+    }
+    .con a{
+        font-size: 1.2em;
+        font-weight: 500;
+        float: right;
+        padding-right: 20px;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+    .con a:hover{
+        color: brown;
+    }
+    
+    .contant{
+        background-color: antiquewhite;
+        height: 400px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ben{
+        position: absolute;
+        top:2950px;
+        left: 0;
+        font-size: 1.6em;
+        font-weight: 500;
+        height: 70px;
+        cursor: pointer;
+    }
+    .benn{
+        position: absolute;
+        top:2950px;
+        left: 360px;
+        font-size: 1.6em;
+        font-weight: 500;
+        height: 70px;
+        cursor: pointer;   
+    }
+    .cono{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cono.active{
+        transform: translateX(-200%);
+        transition: .8s ease-in-out;
+    }
+    .cono img{
+        width: 200px;
+        height: 350px;
+        padding-left: 40px;
+        padding-top: 20px;
+          
+    }
+    .conoo{
+        display: flex;
+        justify-content: space-between;
+        transform: translateX(15%)
+    }
+    .conoo.active{
+        transform: translateX(-100%);
+        transition: .8s ease-in-out;
+    }
+    .conoo img{
+        width: 200px;
+        height: 350px;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    .next{
+        width: 200px;
+        height: 400px;
+        background-color: darkgrey;
+        margin-top: 30px;
+    }
+    
+    footer{
+        height: 300px;
+        background-color: rgb(41, 40, 40);
+        color: aliceblue;
+        margin-top: 40px;
+    }
+    .faat{
+        height: 50px; 
+        background-color: rgb(71, 70, 70); 
+        padding-top: 20px;
+    }
+    .faat a{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 1.6em;
+        font-weight: 500;
+       padding-left: 450px;
+       cursor: pointer;
+    
+    }
+
+.fooot{
+display: flex;
+justify-content: space-between;
+padding-left: 30px;
+padding-right:20px;
+
+
+}
+}
+
+
+
